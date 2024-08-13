@@ -1,0 +1,159 @@
+/* global */
+
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+button{
+    text-align: center;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    height: 40px;
+    width: 120px;
+    border-radius: 9px;
+    border: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* heading */
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16px 220px 0px 220px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading h1{
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+
+/* main */
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    align-items: center;
+}
+
+.main .left{
+    width: 530px;
+
+}
+
+.main h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    padding-bottom: 12px;
+}
+
+.main p{
+    text-wrap: wrap;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* box */
+
+.info{
+    padding: 16px 300px 64px 300px; 
+    padding-bottom: 48px;
+}
+
+.info h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    padding: 20px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
+    width: 250px;
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 18px;
+}
+
+.box p{
+    padding: 15px 0;
+}
+
+/* quote */
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    color: #1f2937;
+    padding: 76px 280px 76px 280px; 
+}
+
+.quote .author{
+    font-size: 18px;
+    font-style: none;
+    font-weight: bold;
+    text-align: right;
+    padding: 16px;
+}
+
+/* action */
+.outer-action{
+    padding: 76px 220px 76px 220px;
+}
+.action{
+    padding: 28px 76px 28px 76px;
+    border-radius: 8px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.action h1{
+    font-size: 24px;
+}
+.action button{
+    border:2px solid #f9faf8;
+}
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 16px;
+    text-align: center;
+}
+
+
